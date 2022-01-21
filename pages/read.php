@@ -18,13 +18,15 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="<?php echo $result['isi_kelas']?>" />
+        <meta name="description" content="<?php echo $result['nama_kelas']?>" />
         <meta name="author" content="" />
         <title><?php echo $result['nama_kelas']?></title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       
 
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
@@ -45,8 +47,8 @@
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/index.php">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/pages/kelas.php">Kelas</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/pages/about.php">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="/pages/contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -84,7 +86,7 @@
                         <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
                             <p>
                                 <?php echo nl2br ($result['isi_kelas'])?>
-                            </p> 
+                            </p>                          
                         </div>                                     
                     </div>
                 </div>

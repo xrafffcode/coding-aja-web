@@ -119,7 +119,8 @@
               <a class="nav-link" href="/pages/contact.php">Contact</a>
             </li>
           </ul>
-          <div class="gap-3">   
+          <div class="gap-3"> 
+              
             <a href="/pages/login.php"><button class="btn btn-default btn-no-fill">Masuk</button></a>
             <a href="/pages/daftar.php"><button class="btn btn-fill text-white border-0">Daftar</button></a>
           </div>

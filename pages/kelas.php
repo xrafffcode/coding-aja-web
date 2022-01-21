@@ -116,7 +116,7 @@
                                   <a href="/pages/read.php?nama_kelas=<?php echo $nama_kelas; ?>">                           
                                   <button type="button" class="btn-card text-white w-100">Baca Kelas</button>
                                   </a> 
-                              </div>                             
+                                </div>                             
                         </div>
                       </div>
             </div>
